@@ -1,0 +1,13 @@
+XGBoost classification report (test set)
+=========================================
+
+              precision    recall  f1-score   support
+
+          P1      0.847     0.762     0.802      1014
+          P2      0.816     0.930     0.870      5045
+          P3      0.470     0.263     0.337      1325
+          P4      0.740     0.727     0.733      1029
+
+    accuracy                          0.780      8413
+   macro avg      0.718     0.671     0.686      8413
+weighted avg      0.756     0.780     0.761      8413

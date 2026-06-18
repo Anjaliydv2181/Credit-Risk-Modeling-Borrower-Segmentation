@@ -1,0 +1,56 @@
+{
+  "n_borrowers": 42064,
+  "n_model_features": 54,
+  "random_forest_accuracy": 0.7626,
+  "xgboost_accuracy": 0.78,
+  "best_model": "XGBoost",
+  "xgb_params": {
+    "objective": "multi:softmax",
+    "num_class": 4,
+    "learning_rate": 0.2,
+    "max_depth": 3,
+    "n_estimators": 200
+  },
+  "top_drivers": [
+    [
+      "enq_L3m",
+      0.1717357188463211
+    ],
+    [
+      "Age_Oldest_TL",
+      0.12117787450551987
+    ],
+    [
+      "pct_PL_enq_L6m_of_ever",
+      0.09123758971691132
+    ],
+    [
+      "num_std_12mts",
+      0.08421558886766434
+    ],
+    [
+      "max_recent_level_of_deliq",
+      0.07913274317979813
+    ],
+    [
+      "time_since_recent_enq",
+      0.0678430050611496
+    ],
+    [
+      "recent_level_of_deliq",
+      0.03340790793299675
+    ],
+    [
+      "Age_Newest_TL",
+      0.02647286467254162
+    ],
+    [
+      "num_deliq_6_12mts",
+      0.021254433318972588
+    ],
+    [
+      "num_times_60p_dpd",
+      0.018992118537425995
+    ]
+  ]
+}
